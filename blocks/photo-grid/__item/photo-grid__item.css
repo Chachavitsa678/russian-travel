@@ -1,0 +1,9 @@
+.photo-grid__item {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.photo-grid__item:nth-child(2n) {
+    margin-right: 0;
+}

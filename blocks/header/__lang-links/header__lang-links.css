@@ -1,0 +1,23 @@
+.header__lang-links {
+    display: flex;
+    width: 46.5%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .header__lang-links {
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .header__lang-links {
+      width: 30%;
+    }
+  }

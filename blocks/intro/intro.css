@@ -1,0 +1,27 @@
+@import "./__list/intro__list.css";
+@import "./__text/intro__text.css";
+@import "./__title/intro__title.css";
+@import "./__item/intro__item.css";
+@import "./__item-digit/intro__item-digit.css";
+
+.intro {
+    padding: 92px 442px 0 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 92px 286px 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 88px 24px 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        padding: 64px 16px 0 16px;
+    }
+}
