@@ -1,5 +1,3 @@
-@import "./__item/photo-grid__item.css";
-
 .photo-grid {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));

@@ -1,13 +1,3 @@
-@import "./__place/places__place.css";
-@import "./__image/places__image.css";
-@import "./__paragraph/places__paragraph.css";
-@import "./__title/places__title.css";
-@import "./__link/places__link.css";
-@import "./__url-heading/places__url-heading.css";
-@import "./__place/_position/places__place_position.css";
-@import "./__paragraph/_without-margin/places__paragraph_without-margin.css";
-
-
 .places {
     display: grid;
     grid-template-columns: 460px 1fr;

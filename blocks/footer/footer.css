@@ -1,23 +1,14 @@
-@import "./__copyright/footer__copyright.css";
-@import "./__link/footer__link.css";
-@import "./__links/footer__links.css";
-
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
     width: 100%;
-    height: auto;
-    padding: 88px 0 24px 0;
+    padding: 92px 0 24px 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-    .footer {
-        padding-top: 92px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .footer {

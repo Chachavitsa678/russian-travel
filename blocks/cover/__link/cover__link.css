@@ -9,3 +9,27 @@
     text-align: center;
     text-decoration: none;
 }
+
+.cover__link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 96px);
+    height: 100%;
+    margin: 0 48px;
+    background-image: url("../../../image/cover-trains.jpg");
+    background-size: cover;
+    /* z-index: -1; */
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link::before {
+        margin: 0;
+        width: 100%;
+    }
+}

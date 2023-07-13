@@ -1,8 +1,3 @@
-@import "./__background/cover__background.css";
-@import "./__subtitle/cover__subtitle.css";
-@import "./__title/cover__title.css";
-@import "./__link/cover__link.css";
-
 .cover {
     position: relative;
     max-height: 740px;
@@ -12,14 +7,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    overflow-x: hidden;
     background: #2A2C2F;
 }
 
-.cover:hover .cover__background {
-    opacity: 0.3;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 1024px) {
     .cover {
