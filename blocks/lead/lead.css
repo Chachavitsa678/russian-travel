@@ -20,9 +20,3 @@ margin: 0;
         padding: 48px 0 0 0;
     }
 }
-
-@media screen and (max-width: 320px) {
-    .lead {
-        padding: 48px 0 0 0;
-    }
-}

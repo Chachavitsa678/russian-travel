@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
     .footer__link:first-child {
         margin-left: 16px;
         margin-top: 0;

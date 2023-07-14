@@ -12,25 +12,22 @@
 
 @media screen and (max-width: 1024px) {
     .places__paragraph {
-        max-width: 456px;
-        width: 100%;  
+        max-width: 456px; 
     }
 }
 
 @media screen and (max-width: 768px) {
     .places__paragraph {
         font-size: 16px;
-        max-width: 352px;
-        width: 100%;  
+        max-width: 352px; 
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .places__paragraph {
         margin-left: 16px;
         margin-right: 16px;
         max-width: 288px;
-        width: 100%;
     }
 }
 
