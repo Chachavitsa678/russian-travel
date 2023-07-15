@@ -1,4 +1,5 @@
-@import"../vendor/normalize.css";
+@import "../vendor/normalize.css";
+
 
 @import"../blocks/cover/cover.css";
 @import "../blocks/cover/__link/cover__link.css";
