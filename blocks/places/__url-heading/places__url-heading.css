@@ -6,9 +6,10 @@
     line-height: 12px;
     font-weight: 400;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 690px) {
     .places__url-heading {
         margin: 0 0 12px 16px;
     }

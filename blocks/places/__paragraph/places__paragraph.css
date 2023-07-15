@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 690px) {
     .places__paragraph {
         margin-left: 16px;
         margin-right: 16px;

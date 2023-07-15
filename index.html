@@ -8,7 +8,7 @@
     <meta name="description" content="Путешествия по России">
     <meta name="keywords" content="HTMLS, CSS">
     <meta name="author" content="Полина Илянкина">
-    <link rel="stylesheet" href="./blocks/pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <script src="./script/script.js"></script>
 </head>
 
@@ -17,8 +17,12 @@
         <header class="header">
             <img class="header__logo" src="./image/logo/header-logo.svg" alt="Россия" />
             <ul class="header__lang-links">
-                <li class="header__lang-link header__lang-link_active"><a href="#"></a>Ru</li>
-                <li class="header__lang-link"><a href="#"></a>En</li>
+                <li class="header__lang-item">
+                    <a class="header__lang-link header__lang-link_active">Ru</a>
+                </li>
+                <li class="header__lang-item">
+                    <a class="header__lang-link">En</a>
+                </li>
             </ul>
         </header>
         <main class="content">
@@ -70,8 +74,8 @@
             </section>
             <section class="places">
                 <h2 class="places__title">Куршская коса</h2>
-                <div class="places__place places__place_position">
-                    <h3 class="places__url-heading">URL</h3>
+                <div class="places__place places__place_direction_end">
+                    <p class="places__url-heading">url</p>
                     <a class="places__link" href="http://park-kosa.ru">park-kosa.ru</a>
                 </div>
                 <img class="places__image" src="./image/place-kosa.jpg" alt="Кристально чистый берег.">
@@ -80,7 +84,7 @@
                         горизонта — спокойного Куршского залива с одной стороны и&nbsp;подёрнутого рябью волн
                         Балтийского
                         моря с&nbsp;другой. Уникальная природная зона на краю российского анклава.</p>
-                    <p class="places__paragraph places__paragraph_without-margin">На этом Калининградская область не
+                    <p class="places__paragraph places__paragraph_margin_without">На этом Калининградская область не
                         заканчивается. Для&nbsp;путешественника и&nbsp;исследователя там же по&nbsp;соседству — самая
                         западная
                         точка России, Балтийская
@@ -91,8 +95,8 @@
                 </div>
 
                 <h2 class="places__title">Кольский</h2>
-                <div class="places__place places__place_position">
-                    <h3 class="places__url-heading">URL</h3>
+                <div class="places__place places__place_direction_end">
+                    <p class="places__url-heading">URL</p>
                     <a class="places__link"
                         href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                         Geographic</a>
@@ -102,7 +106,7 @@
                     <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра,
                         от которой на юг —
                         тайга,а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-                    <p class="places__paragraph places__paragraph_without-margin">Возможно, вы смотрели Звягинцева и
+                    <p class="places__paragraph places__paragraph_margin_without">Возможно, вы смотрели Звягинцева и
                         даже
                         слышали историю арктического
                         фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний
@@ -115,8 +119,8 @@
                 </div>
 
                 <h2 class="places__title">Алтай</h2>
-                <div class="places__place places__place_position">
-                    <h3 class="places__url-heading">URL</h3>
+                <div class="places__place places__place_direction_end">
+                    <p class="places__url-heading">URL</p>
                     <a class="places__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
                 </div>
                 <img class="places__image" src="./image/place-altai.jpg" alt="Лесной уют.">
@@ -127,7 +131,7 @@
                         реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом
                         здешних
                         мест — горным воздухом.</p>
-                    <p class="places__paragraph places__paragraph_without-margin">Климат на Алтае умеренный, поэтому
+                    <p class="places__paragraph places__paragraph_margin_without">Климат на Алтае умеренный, поэтому
                         ехать
                         сюда лучше всего летом. Так
                         вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами
@@ -136,8 +140,8 @@
                 </div>
 
                 <h2 class="places__title">Зимний Байкал</h2>
-                <div class="places__place places__place_position">
-                    <h3 class="places__url-heading">URL</h3>
+                <div class="places__place places__place_direction_end">
+                    <p class="places__url-heading">URL</p>
                     <a class="places__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                 </div>
                 <img class="places__image" src="./image/place-winter-baikal.jpg" alt="Прозрачный лед озера.">
@@ -146,7 +150,7 @@
                         в&nbsp;мире.&nbsp;Многие также знают, что это самый большой источник пресной воды и одно
                         из&nbsp;красивейших мест в
                         России.</p>
-                    <p id="paragraph" class="places__paragraph places__paragraph_without-margin">Конечно, это всё так.
+                    <p id="paragraph" class="places__paragraph places__paragraph_margin_without">Конечно, это всё так.
                         Но Байкал ещё
                         идеальное место для соревнований
                         по скийорингу. Это такой вид спорта, когда лыжник привязывает себя
@@ -157,13 +161,13 @@
                 </div>
 
                 <h2 class="places__title">Карелия</h2>
-                <div class="places__place places__place_position">
-                    <h3 class="places__url-heading">URL</h3>
+                <div class="places__place places__place_direction_end">
+                    <p class="places__url-heading">URL</p>
                     <a class="places__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                 </div>
                 <img class="places__image" src="./image/place-karelia.jpg" alt="Берег лесного озера на закате.">
                 <div class="places__place">
-                    <p class="places__paragraph places__paragraph_without-margin">Сибирь заканчивается не на Урале, а в
+                    <p class="places__paragraph places__paragraph_margin_without">Сибирь заканчивается не на Урале, а в
                         Карелии: образующая тайгу
                         сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
                         леса
@@ -177,9 +181,9 @@
                 </div>
             </section>
             <section class="cover">
-                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
                     <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
+                    <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;— путешествие от&nbsp;столицы&nbsp;до Байкала
                         на
                         электричках.</p>
                 </a>
@@ -187,11 +191,11 @@
         </main>
         <footer class="footer">
             <nav class="footer__links">
-                <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
             </nav>
             <p class="footer__copyright">&copy; 2020. Полина Илянкина</p>
         </footer>

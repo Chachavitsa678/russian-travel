@@ -1,0 +1,9 @@
+.places__place_direction_end {
+    align-self: end;
+}
+
+@media screen and (max-width: 690px) {
+    .places__place_direction_end {
+        align-self: center;
+    }
+}

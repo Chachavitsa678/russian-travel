@@ -1,9 +1,0 @@
-.places__place_position {
-    align-self: end;
-}
-
-@media screen and (max-width: 425px) {
-    .places__place_position {
-        align-self: center;
-    }
-}

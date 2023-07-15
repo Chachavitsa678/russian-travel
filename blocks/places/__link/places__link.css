@@ -1,7 +1,6 @@
 .places__link {
     color: white;
     max-width: 100%;
-    height: auto;
     font-size: 18px;
     line-height: 22px;
     margin: 0;
@@ -12,7 +11,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 690px) {
     .places__link {
         margin-left: 16px;
     }
