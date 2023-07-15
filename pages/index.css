@@ -38,7 +38,7 @@
 @import "../blocks/places/__image/places__image.css";
 @import "../blocks/places/__link/places__link.css";
 @import "../blocks/places/__paragraph/places__paragraph.css";
-@import "../blocks/places/__paragraph/_without-margin/places__paragraph_without-margin.css";
+@import "../blocks/places/__paragraph/_margin/places__paragraph_margin_without.css";
 @import "../blocks/places/__place/places__place.css";
 @import "../blocks/places/__place/_direction/places__place_direction_end.css";
 @import "../blocks/places/__title/places__title.css";
